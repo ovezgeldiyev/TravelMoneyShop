@@ -1,0 +1,251 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  h1,
+  h2 {
+    font-size: 52px;
+    line-height: 60px;
+  }
+  h3 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  li {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  p {
+    &.big {
+      font-size: 22px;
+    }
+  }
+}
+// 1380px
+@include xxxlg-xxxxlg {
+  h1,
+  h2 {
+    font-size: 45px;
+    line-height: 52px;
+  }
+  h3 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  li {
+    span {
+      margin-right: 10px;
+      width: 30px;
+      height: 30px;
+    }
+    b {
+      width: calc(100% - 40px);
+      strong {
+        margin-right: 10px;
+      }
+    }
+  }
+  body {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .button {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 22px 24px;
+    span {
+      margin-left: 30px;
+    }
+  }
+  @include hero-xxxlg-xxxxlg;
+  @include header-xxxlg-xxxxlg;
+  @include intro-xxxlg-xxxxlg;
+  @include offer-xxxlg-xxxxlg;
+  @include benefits-xxxlg-xxxxlg;
+  @include footer-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+  @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+  .auto__container {
+    padding: 0 30px;
+  }
+  h1,
+  h2 {
+    font-size: 38px;
+    line-height: 44px;
+  }
+  h3 {
+    font-size: 26px;
+    line-height: 32px;
+  }
+  li {
+    font-size: 18px;
+    line-height: 24px;
+    span {
+      margin-right: 7px;
+      width: 26px;
+      height: 26px;
+    }
+    b {
+      width: calc(100% - 33px);
+    }
+  }
+  p {
+    &.big {
+      font-size: 18px;
+    }
+  }
+  .button {
+    font-size: 17px;
+    line-height: 22px;
+    padding: 16px 20px;
+    span {
+      margin-left: 20px;
+    }
+  }
+  @include header-xlg-xxlg;
+  @include hero-xlg-xxlg;
+  @include intro-xlg-xxlg;
+  @include offer-xlg-xxlg;
+  @include benefits-xlg-xxlg;
+  @include footer-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  h1,
+  h2 {
+    font-size: 34px;
+    line-height: 40px;
+  }
+  @include hero-lg-xlg;
+  @include intro-lg-xlg;
+  @include benefits-lg-xlg;
+
+}
+// 930px
+@include md-lg {
+  .button {
+    font-size: 15px;
+    line-height: 19px;
+    padding: 12px 14px;
+    span {
+      margin-left: 12px;
+      width: 20px;
+      height: 18px;
+    }
+  }
+  body {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  @include header-md-lg;
+  @include hero-md-lg;
+  @include intro-md-lg;
+  @include offer-md-lg;
+  @include benefits-md-lg;
+  @include footer-md-lg;
+}
+// 750px
+@include sm-md {
+  .auto__container {
+    padding: 0 20px;
+  }
+  h3 {
+    font-size: 23px;
+    line-height: 28px;
+  }
+  @include header-sm-md;
+  @include hero-sm-md;
+  @include intro-sm-md;
+  @include footer-sm-md;
+}
+// 650px
+@include sm-md-extra {
+  @include hero-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  h1,
+  h2 {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  p {
+    &.big {
+      font-size: 15px;
+    }
+  }
+  li {
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    span {
+      margin: 0 5px 0 0;
+      width: 22px;
+      height: 22px;
+    }
+    b {
+      width: calc(100% - 27px);
+      strong {
+        margin-right: 4px;
+      }
+    }
+  }
+  .button {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 6px 8px;
+    span {
+      margin-left: 7px;
+      width: 14px;
+      height: 12px;
+    }
+  }
+  @include header-xsm-sm;
+  @include hero-xsm-sm;
+  @include intro-xsm-sm;
+  @include offer-xsm-sm;
+  @include benefits-xsm-sm;
+  @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm {
+  h1,
+  h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  p {
+    &.big {
+      font-size: 13px;
+    }
+  }
+  li {
+    font-size: 13px;
+    line-height: 16px;
+    span {
+      margin: 0 5px 0 0;
+      width: 18px;
+      height: 18px;
+    }
+  }
+  body {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  @include hero-xxsm-xsm;
+  @include intro-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm {
+  // @include hero-xxxsm-xxsm;
+}
